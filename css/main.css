@@ -12,7 +12,7 @@ main{
 }
 /* HEASER'S ROULES */
 header{
-  background-color: rgb(12, 50, 90);
+  background-color: rgba(0, 0, 0, 0);
   padding: 1% 5%;
   width: 100%;
   height: 60px;
@@ -47,7 +47,7 @@ a{
 
 
 header > button{
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(12, 50, 90);
   padding: 7px 25px;
   border-radius: 3px;
   border: 2px solid white;
@@ -58,7 +58,7 @@ header > button:last-child{
   background-color: darkgreen;
   padding: 7px 6px;
   border-radius: 3px;
-  border:0;
+  border: 0;
   color: white;
 }
 
@@ -72,17 +72,33 @@ header > button:last-child{
 
 /* MAIN'S ROULES */
 
-main{
-
-}
-
-
 
 /* jumbo throne's roules */
 
 section:first-child{
   background-color: rgb(12, 50, 90);
-  height: 300px;
+  background-image: url(../img/background-header.png);
+  background-size: cover;
+  height: 600px;
+  padding: 15% 40% 5% 5%;
+}
+
+h1
+{
+  width: 70%;
+  font-size: 55px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+section:first-child > button{
+  width: 20%;
+  height: 22%;
+  background-color: darkgreen;
+  padding: 7px 6px;
+  border-radius: 3px;
+  border: 0;
+  color: white;
 }
 
 
