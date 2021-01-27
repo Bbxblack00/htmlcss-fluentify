@@ -1,0 +1,111 @@
+/* general roules */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+main{
+  font-family: 'Montserrat', sans-serif;
+}
+/* HEASER'S ROULES */
+header{
+  background-color: rgb(12, 50, 90);
+  padding: 0 7%;
+  height: 60px;
+  position: fixed;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+}
+
+
+/* END HEADER'S ROULES */
+
+/* MAIN'S ROULES */
+
+main{
+
+}
+
+
+
+/* jumbo throne's roules */
+
+section:first-child{
+  background-color: rgb(12, 50, 90);
+  height: 300px;
+}
+
+
+/* end jumbo throne's roules */
+
+
+/* words ad collum's section */
+
+section:last-child{
+  padding: 0 15%;
+}
+
+section:last-child::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title{
+  height:100px;
+  background-color: lightgrey;
+}
+
+.left{
+  background-color: gray;
+  float: left;
+  width: 30%;
+  height: 400px;
+  margin:2% 1%;
+}
+
+.center{
+  background-color: gray;
+  float: left;
+  width: 30%;
+  height: 400px;
+  margin: 2% 3%;
+}
+
+.right{
+  background-color: gray;
+  float: left;
+  width: 30%;
+  height: 400px;
+  margin: 2% 1%;
+}
+
+.bottom{
+  background-color: gray;
+  float: left;
+  width: 90%;
+  height: 400px;
+  margin: 0 5%;
+}
+
+
+/* end words ad collum's section */
+
+/* FOOTER'S ROULES */
+
+footer{
+  background-color: lightgray;
+  height: 100px;
+}
+
+
+/* END FOOTER'S ROULES */
